@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Ravi ka pehla GitHub wala build!'
+                sh 'ls -la'
+            }
+        }
+    }
+}
