@@ -1,10 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('Hello') {
+        stage('Build Success') {
             steps {
-                echo 'Ravi ka pehla GitHub wala build!'
-                sh 'ls -la'
+                echo 'Ravi bhai, ab GitHub se build ho gaya! Final success!'
             }
         }
     }
